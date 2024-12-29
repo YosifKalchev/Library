@@ -9,6 +9,6 @@ class GetInitialsKtTest {
     fun testGetInitials() {
         val fullName = "Yosif Kalchev"
 
-        assertThat(getInitials(fullName)).isEqualTo("YK2")
+        assertThat(getInitials(fullName)).isEqualTo("YK")
     }
 }
